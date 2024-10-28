@@ -5,9 +5,35 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
+}
+
+.header {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.buttons button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #666;
 }
 
 .chat-container {
